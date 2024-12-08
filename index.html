@@ -18,7 +18,7 @@
             <main class="main">
                 <div class="toggle-all-container">
                     <input class="toggle-all" type="checkbox" />
-                    <label class="toggle-all-label" for="toggle-all">Mark all as complete</label>
+                    <label class="toggle-all-label" for="toggle-all" data-cy="toggle-all">Mark all as complete</label>
                 </div>
                 <ul data-cy="todos-list" class="todo-list"></ul>
             </main>
@@ -35,7 +35,7 @@
                         <a data-cy="filter-completed-link" href="#/completed">Completed</a>
                     </li>
                 </ul>
-                <button class="clear-completed">Clear completed</button>
+                <button class="clear-completed" data-cy="clear-completed">Clear completed</button>
             </footer>
         </section>
         <footer class="info">
